@@ -241,7 +241,7 @@ box-shadow: 0 2px 10px #FFF;
 
 .music-img {
    position: absolute;
-   top: 35px;
+   top: 38px;
    left: 35px;
 }
 
@@ -268,4 +268,5 @@ font-style: normal;
 font-weight: 400;
 line-height: 33px; 
 width: 556px;
+margin-bottom: 33px;
 }
