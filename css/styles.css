@@ -230,6 +230,10 @@ ul {
    position: relative;
 }
 
+.music-div {
+   margin-top: 147px;
+}
+
 .music-link {
    border-radius: 400px;
    background: #118DA8;
@@ -242,7 +246,7 @@ ul {
 
 .music-img {
    position: absolute;
-   top: 38px;
+   top: 183px;
    left: 35px;
 }
 
@@ -284,7 +288,6 @@ ul {
    justify-content: space-between;
    border-radius: 32px;
    background: #000;
-   position: relative;
 }
 
 .input-text {
@@ -311,7 +314,37 @@ margin-bottom: 143px;
 
 .input-img {
    position: absolute;
-   
    left: 1780px;
    top: 4520px;
+}
+
+.input-enter {
+   margin-left: 227px;
+   margin-top: 60px;
+}
+
+.input-name {
+   width: 652px;
+height: 82px;
+border-radius: 6px;
+border: 1px solid #191919;
+background: #191919;
+margin-bottom: 20px;
+}
+
+.input-btn {
+   color: rgba(255, 255, 255, 0.70);
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 28.8px;
+border-radius: 6px;
+background: #118DA8;
+padding: 9px 18px;
+box-shadow: 0 2px 10px #FFF;
+}
+
+.input-btn:hover {
+   color: #171717;
+   background-color: #FFF;
 }
