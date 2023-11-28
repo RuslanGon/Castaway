@@ -20,6 +20,7 @@ ul {
    padding: 0;
    margin: 0;
 }
+
 /* header */
 
 .header {
@@ -224,18 +225,18 @@ ul {
    padding-left: 15px;
    padding-right: 15px;
    margin-top: 200px;
-  display: flex;
-  justify-content: space-between;
-  position: relative;
+   display: flex;
+   justify-content: space-between;
+   position: relative;
 }
 
 .music-link {
    border-radius: 400px;
-background: #118DA8;
-width: 112px;
-height: 112px;
-display: block;
-box-shadow: 0 2px 10px #FFF;
+   background: #118DA8;
+   width: 112px;
+   height: 112px;
+   display: block;
+   box-shadow: 0 2px 10px #FFF;
 }
 
 
@@ -247,26 +248,70 @@ box-shadow: 0 2px 10px #FFF;
 
 .music-text {
    color: #118DA8;
-font-size: 18px;
-line-height: 27px; 
-margin-top: 20px;
+   font-size: 18px;
+   line-height: 27px;
+   margin-top: 20px;
 }
 
 .music-title {
    color: #FFF;
-font-size: 65px;
-font-style: normal;
-font-weight: 400;
-line-height: 79.2px; 
-letter-spacing: 2.88px;
+   font-size: 65px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 79.2px;
+   letter-spacing: 2.88px;
 }
 
 .music-desk {
    color: rgba(255, 255, 255, 0.70);
-font-size: 22px;
+   font-size: 22px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 33px;
+   width: 556px;
+   margin-bottom: 33px;
+}
+
+/* input */
+
+.input {
+   width: 1440px;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-top: 200px;
+   display: flex;
+   justify-content: space-between;
+   border-radius: 32px;
+   background: #000;
+   position: relative;
+}
+
+.input-text {
+   color: #118DA8;
+font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 33px; 
-width: 556px;
-margin-bottom: 33px;
+line-height: 27px;
+margin-top: 60px;
+margin-left: 60px;
+}
+
+.input-title {
+   color: #FFF;
+font-size: 72px;
+font-style: normal;
+font-weight: 400;
+line-height: 79.2px; 
+letter-spacing: 2.88px;
+width: 431px;
+margin-left: 60px;
+margin-bottom: 143px;
+}
+
+.input-img {
+   position: absolute;
+   
+   left: 1780px;
+   top: 4520px;
 }
