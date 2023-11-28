@@ -316,8 +316,9 @@ margin-bottom: 143px;
 .input-img {
    position: absolute;
    left: 20px;
-   top: 20px;
-   display: block;
+  bottom: -4000px;
+ 
+   
 }
 
 .input-enter {
