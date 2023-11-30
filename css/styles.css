@@ -314,11 +314,9 @@ margin-bottom: 143px;
 }
 
 .input-img {
-   position: absolute;
-   left: 20px;
-  bottom: -3820px;
- 
-   
+ position: absolute;
+ bottom: -30px;
+left: -40px;
 }
 
 .input-enter {
@@ -398,6 +396,7 @@ border-radius: 32px;
 background: #000;
 gap: 16px 16px;
 width: calc(((100% - 32px)) / 3);
+position: relative;
 }
 
 .card-div {
@@ -424,4 +423,10 @@ font-weight: 400;
 line-height: 28.8px;
 padding-left: 54px;
 margin-top: 10px;
+}
+
+.input-img11 {
+   position: absolute;
+   left: -45px;
+  bottom: -27px;
 }
