@@ -441,6 +441,7 @@ margin-top: 10px;
    padding-right: 15px;
    display: flex;
    margin-top: 200px;
+   
 }
 
 .footer-svg {
@@ -458,4 +459,9 @@ margin-right: 120px;
 
 .footer-text {
    margin-right: 121px;
+}
+
+.footer-div {
+   display: flex;
+   gap: 17px;
 }
