@@ -20,7 +20,6 @@ ul {
    padding: 0;
    margin: 0;
 }
-
 /* header */
 
 .header {
@@ -53,7 +52,7 @@ ul {
 /* main-section */
 
 .main-section {
-   width: 1440px;
+   width: 1390px;
    margin: 0 auto;
    padding-left: 15px;
    padding-right: 15px;
@@ -118,7 +117,7 @@ ul {
    width: 1440px;
    margin: 0 auto;
    padding-left: 15px;
-   padding-right: 15px;
+   padding-right: 65px;
 }
 
 .div-desk {
@@ -441,7 +440,7 @@ margin-top: 10px;
    padding-right: 15px;
    display: flex;
    margin-top: 200px;
-   
+
 }
 
 .footer-svg {
