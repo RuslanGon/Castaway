@@ -430,3 +430,32 @@ margin-top: 10px;
    left: -45px;
   bottom: -27px;
 }
+
+/* footer */
+
+.footer {
+   width: 1440px;
+   height: 438px;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   display: flex;
+   margin-top: 200px;
+}
+
+.footer-svg {
+   margin-bottom: 23px;
+}
+
+.footer-img {
+   margin-right: 10px;
+}
+
+.footer-textra {
+margin-left: 239px;
+margin-right: 120px;
+}
+
+.footer-text {
+   margin-right: 121px;
+}
