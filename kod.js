@@ -25,4 +25,28 @@
 
 // console.log(liElems[2]);
 
+// const link = document.querySelector(`h1`);
+// console.log(link);
+
+
+// document.getElementById( без # `.`);
+// document.getElementsByClassName(`header-link`);
+// document.getElementsByTagName(`li`);
+// document.getElementsByClassName(``)
+
+// ==============================
+
+const ulElem = document.querySelector(`.header-list`);
+// console.log(ulElem.parentElement);
+
+// console.log(ulElem.firstChild текстовый узел, не пишем);
+
+// console.log(ulElem.firstElementChild);
+
+// console.log(ulElem.lastElementChild);
+
+console.log(ulElem.children);
+
+
+
 
