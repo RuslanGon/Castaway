@@ -52,16 +52,31 @@
 
 // =============================
 
-// const imageEl = document.querySelector(`.man-img`);
-// console.log(imageEl);
+const imageEl = document.querySelector(`.man-img`);
+console.log(imageEl);
+
+console.log(imageEl.getAttribute(`src`));
+console.log(imageEl.getAttribute(`class`));
+imageEl.removeAttribute(``);
+imageEl.hasAttribute(``);
+
+
+
+
+
+
+
+
+
+
 
 // console.log(imageEl.src);
 // console.log(imageEl.width)
 // imageEl.src = `#`
 
-const elemH1 = document.querySelector(`.main-title`);
-console.log(elemH1);
-elemH1.textContent = `Hello`;
+// const elemH1 = document.querySelector(`.main-title`);
+// console.log(elemH1);
+// elemH1.textContent = `Hello`;
 
 
 
