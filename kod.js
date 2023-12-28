@@ -94,10 +94,13 @@
 
 // ==================================
 
-const myElem = document.createElement(`h1`);
+// const myElem = document.createElement(`h1`);
 
-myElem.textContent = `Hello`
-console.log(myElem);
+// myElem.textContent = `Hello Word`;
+// myElem.style.color = `tomato`;
+// myElem.classList.add(`bolt`)
+// console.log(myElem);
+
 
 
 // const arr = [];
@@ -108,8 +111,30 @@ console.log(myElem);
 // }
 // console.log(arr);
 
+// ================================
 
+const myElem = document.createElement(`h1`);
 
+myElem.textContent = `Hello Word`;
+myElem.style.color = `tomato`;
+myElem.classList.add(`bolt`)
+console.log(myElem);
+
+const boxElem = document.querySelector(`.js-nav`);
+boxElem.append(myElem);
+console.log(boxElem);
+
+const arr = [];
+for(let i = 1; i < 10; i++){
+    const myElem = document.createElement(`h1`);
+
+myElem.textContent = `Hello Word` +  i;
+myElem.style.color = `tomato`;
+myElem.classList.add(`bolt`);
+arr.push(myElem);
+}
+
+boxElem.append(...arr)
 
 
 
