@@ -75,7 +75,13 @@
 const liEl = document.querySelector(`.header-item`);
 console.log(liEl);
 
-liEl.classList.add(``)
+// liEl.classList.add( `bolt`);
+// liEl.classList.remove(`bolt`);
+// setInterval(() => {
+//     liEl.classList.toggle(`bolt`)
+// }, 1000)
+
+
 
 
 

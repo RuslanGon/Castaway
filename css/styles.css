@@ -467,6 +467,6 @@ margin-right: 120px;
    gap: 17px;
 }
 
-.list{
-   color: aqua;
+.bolt {
+   text-transform: uppercase;
 }
