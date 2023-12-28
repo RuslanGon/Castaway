@@ -36,7 +36,7 @@
 
 // ==============================
 
-const ulElem = document.querySelector(`.header-list`);
+// const ulElem = document.querySelector(`.header-list`);
 // console.log(ulElem.parentElement);
 
 // console.log(ulElem.firstChild текстовый узел, не пишем);
@@ -45,7 +45,23 @@ const ulElem = document.querySelector(`.header-list`);
 
 // console.log(ulElem.lastElementChild);
 
-console.log(ulElem.children);
+// console.log(ulElem.children);
+// console.log(ulElem.children[1]);
+
+// console.log(ulElem.nextElementSibling)
+
+// =============================
+
+// const imageEl = document.querySelector(`.man-img`);
+// console.log(imageEl);
+
+// console.log(imageEl.src);
+// console.log(imageEl.width)
+// imageEl.src = `#`
+
+const elemH1 = document.querySelector(`.main-title`);
+console.log(elemH1);
+elemH1.textContent = `Hello`;
 
 
 
