@@ -87,6 +87,27 @@
 
 // ==================================
 
+// const link = document.querySelector(`h1`);
+// link.style.color = `tomato`
+// link.style.fontSize = `77px`
+// console.log(link);
+
+// ==================================
+
+const myElem = document.createElement(`h1`);
+
+myElem.textContent = `Hello`
+console.log(myElem);
+
+
+// const arr = [];
+// for(let i = 0; i < 100; i ++){
+//     const myElem = document.createElement(`h1`);
+//     myElem.textContent = `Hello Word`
+//     arr.push(myElem)
+// }
+// console.log(arr);
+
 
 
 
