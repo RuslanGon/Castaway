@@ -466,7 +466,28 @@ margin-right: 120px;
    display: flex;
    gap: 17px;
 }
-
+/* ========================== */
 .bolt {
    text-transform: uppercase;
+}
+
+.color-card {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   border: 1px solid black;
+   width: 100px;
+  
+}
+
+.box {
+   width: 100px;
+   height: 100px;
+}
+
+.color-picter {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
 }

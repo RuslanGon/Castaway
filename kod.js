@@ -143,7 +143,54 @@
 // ======================================
 
 
+const options = [
+    {lable: `красный`, color: `#f44336`},
+    {lable: `зеленый`, color: `#4c4f50`},
+    {lable: `синий`, color: `#2196f3`},
+    {lable: `серый`, color: `#607d8b`},
+    {lable: `оранжевый`, color: `#e91e63`},
+    {lable: `индиго`, color: `#3f51b5`},
+]
 
+
+const colorPictetContainer = document.querySelector(`.js-color-picer`)
+// colorPictetContainer.textContent = marKup;
+colorPictetContainer.innerHTML = marKup;
+
+const marKup = options.map(colotTemplate).join(`\n\n`)
+console.log(marKup)
+
+for(let color of options){
+    const marKup = colotTemplate(color)
+    console.log(marKup)
+}
+
+
+
+
+
+
+/* 
+<div class="color-card">
+<div class="box" style="background-color: red;"></div>
+<p>красный</p>
+</div> 
+*/
+
+function colotTemplate(obj){
+const label = obj.label;
+const color = obj.color;
+
+return`
+<div class="color-card">
+<div class="box" style="background-color: ${color};"></div>
+<p>${label}</p>
+</div> 
+`
+}
+
+// const result = colotTemplate( {label: `Hello`, color: `blue`});
+// console.log(result)
 
 
 
