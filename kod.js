@@ -72,14 +72,22 @@
 
 // ==============================
 
-const liEl = document.querySelector(`.header-item`);
-console.log(liEl);
+// const liEl = document.querySelector(`.header-item`);
+// console.log(liEl);
 
 // liEl.classList.add( `bolt`);
 // liEl.classList.remove(`bolt`);
 // setInterval(() => {
 //     liEl.classList.toggle(`bolt`)
 // }, 1000)
+
+// liEl.classList.replace(`заменть один клас`,`н другой`)
+
+// console.log(liEl.classList.contains(`есть класс или нет?`))
+
+// ==================================
+
+
 
 
 
