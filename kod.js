@@ -284,6 +284,17 @@ const form = document.querySelector(`.js-form`);
 form.addEventListener(`submit`, onFormSubmit);
 function onFormSubmit(e){
     e.preventDefault();
-    console.log(e.currentTarget);
+    
+    const email = form.elements.email.value;
+    const password = form.elements.password.value;
+    const coment = form.elements.coment.value;
+    const userData = {
+        email,
+        password,
+        coment,
+    }
+    console.log (userData);
+    form.reset();
 }
+
 
