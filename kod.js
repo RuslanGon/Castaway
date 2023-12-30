@@ -198,11 +198,19 @@
 const clickBtn = document.querySelector(`.js-btn`);
 clickBtn.addEventListener(`click`, onBtnClick);
 
+let boxecTop = 50;
+let boxecLeft = 50;
 
 function onBtnClick(){
-    console.log(`Hello`)
+    boxecTop += 10;
+    boxecLeft += 10
+    boxec.style.top = `${boxecTop}px`;
+    boxec.style.left = `${boxecLeft}px`
 }
-console.log(clickBtn)
+console.log(clickBtn);
+
+const boxec = document.querySelector(`.boxec`);
+console.log(boxec)
 
 
 

@@ -503,4 +503,12 @@ margin-right: 120px;
 
 .js-btn {
    margin-bottom: 20px;
+   padding: 20px 60px;
+}
+
+.boxec {
+   color: rgb(177, 31, 31)323;
+   width: 100px;
+   height: 100px;
+   position: relative;
 }
