@@ -512,3 +512,11 @@ margin-right: 120px;
    height: 100px;
    position: relative;
 }
+
+.js-input {
+   margin-top: 100px;
+   height: 40px;
+   width: 500px;
+   border: 10px;
+   font-size: 30px;
+}

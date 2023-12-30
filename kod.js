@@ -222,6 +222,13 @@
 //     boxec.style.left = `${boxecLeft}px`
 // }
 
+// =======================================
+
+const input = document.querySelector(`.js-input`);
+input.addEventListener(`click` , () => {
+console.log(`Hello`)
+})
 
 
+console.log(input)
 
