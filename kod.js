@@ -277,3 +277,13 @@
 //     const name = input.value;
 //   input.innerHTML = `Hello ${name}`
 // })
+
+// ==========================================
+
+const form = document.querySelector(`.js-form`);
+form.addEventListener(`submit`, onFormSubmit);
+function onFormSubmit(e){
+    e.preventDefault();
+    console.log(e.currentTarget);
+}
+

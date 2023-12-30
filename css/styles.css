@@ -516,7 +516,7 @@ margin-right: 120px;
 .js-input {
    margin-top: 100px;
    height: 40px;
-   width: 500px;
+   width: 1500px;
    border: 10px;
    font-size: 30px;
 }
@@ -527,4 +527,23 @@ border: 10px solid green;
  
 .isvalid {
    border: 10px solid red; 
+   }
+
+   .jsinput {
+      margin-top: 100px;
+   height: 40px;
+   width: 500px;
+   border: 10px;
+   font-size: 30px;
+   padding: 35px;
+   }
+
+   .js-text {
+      padding: 20px;
+      font-size: 35px;
+   }
+
+   .js-submit {
+      margin-bottom: 20px;
+   padding: 20px 60px;
    }
