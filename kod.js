@@ -280,21 +280,42 @@
 
 // ==========================================
 
-const form = document.querySelector(`.js-form`);
-form.addEventListener(`submit`, onFormSubmit);
-function onFormSubmit(e){
-    e.preventDefault();
+// const form = document.querySelector(`.js-form`);
+// form.addEventListener(`submit`, onFormSubmit);
+// function onFormSubmit(e){
+//     e.preventDefault();
     
-    const email = form.elements.email.value;
-    const password = form.elements.password.value;
-    const coment = form.elements.coment.value;
-    const userData = {
-        email,
-        password,
-        coment,
-    }
-    console.log (userData);
-    form.reset();
-}
+//     const email = form.elements.email.value;
+//     const password = form.elements.password.value;
+//     const coment = form.elements.coment.value;
+//     const userData = {
+//         email,
+//         password,
+//         coment,
+//     }
+//     console.log (userData);
+//     form.reset();
+// }
 
+// =======================================
+// const box = document.querySelector(`.boxec`);
+// let boxLeft = 0;
+// let boxTop = 0;
+// document.addEventListener(`keydown`, (e) => {
+// console.log(e.code)
+// switch(e.code){
+//     case `keyW`: boxTop -= 10; break;
+//     case `keyS`: boxTop += 10; break;
+//     case `keyD`: boxLeft += 10; break; 
+//     case `keyA`: boxLeft -= 10; break;
+// }
+// box.style.left = boxLeft + `px`;
+// box.style.top = boxTop + `px`;
+// });
+// document.addEventListener(`keyress`, () => {
+//     console.log(`keypress`)
+// });
+// document.addEventListener(`keyup`, () => {
+//     console.log(`keyup`)
+// }) 
 
