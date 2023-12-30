@@ -225,10 +225,30 @@
 // =======================================
 
 const input = document.querySelector(`.js-input`);
-input.addEventListener(`click` , () => {
-console.log(`Hello`)
-})
+// input.addEventListener(`click` , () => {
+// console.log(`Hello`)
+// })
 
+// input.addEventListener(`input` , () => {
+//     console.log(`Hello`)
+//     })
 
-console.log(input)
+    // input.addEventListener(`blur` , () => {
+    //     console.log(`blur`)
+    //     })
 
+    //     input.addEventListener(`focus` , () => {
+    //         console.log(`focus`)
+    //         })
+
+    // input.addEventListener(`change`, () => {
+    //     console.log(`Change`)
+    // })
+
+    // ==============================================
+    input.addEventListener(`blur`, onInputBlut);
+
+    function onInputBlut(){
+        console.log(input.value)
+        alert(`Hello ${input.value}`)
+   }
