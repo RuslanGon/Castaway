@@ -312,10 +312,21 @@
 // box.style.left = boxLeft + `px`;
 // box.style.top = boxTop + `px`;
 // });
-// document.addEventListener(`keyress`, () => {
-//     console.log(`keypress`)
+
+
+// =============================================
+// document.addEventListener(`keyress`, (e) => {
+//     console.log(e.code)
+//   if(e.ctrlKey && e.code === `KeyQ`){
+//     console.log(`Hello Q`);
+//   }
 // });
-// document.addEventListener(`keyup`, () => {
-//     console.log(`keyup`)
-// }) 
+
+// =============================================
+
+document.addEventListener(`keyup`, (e) => {
+    console.log(`keyup`, e.code)
+});
+
+
 
