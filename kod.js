@@ -224,7 +224,7 @@
 
 // =======================================
 
-const input = document.querySelector(`.js-input`);
+// const input = document.querySelector(`.js-input`);
 // input.addEventListener(`click` , () => {
 // console.log(`Hello`)
 // })
@@ -246,9 +246,34 @@ const input = document.querySelector(`.js-input`);
     // })
 
     // ==============================================
-    input.addEventListener(`blur`, onInputBlut);
+//     input.addEventListener(`blur`, onInputBlut);
 
-    function onInputBlut(){
-        console.log(input.value)
-        alert(`Hello ${input.value}`)
-   }
+//     function onInputBlut(){
+//         console.log(input.value)
+//         alert(`Hello ${input.value}`)
+//    }
+
+//=============================================
+
+//    input.addEventListener(`blur`, onInputBlut);
+//    input.addEventListener(`focus`, onInputFocus);
+
+//    function onInputBlut(){
+//     const name = input.value;
+//     if(name.length > 6){
+//         input.classList.add(`valid`)
+//     }else{
+//         input.classList.add(`isvalid`)
+//     }
+// }
+
+// function onInputFocus(){
+//     input.classList.remove(`valid`);
+//     input.classList.remove(`isvalid`);
+// }
+//  =========================================
+
+// let input = document.addEventListener(`input`, () => {
+//     const name = input.value;
+//   input.innerHTML = `Hello ${name}`
+// })

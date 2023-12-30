@@ -520,3 +520,11 @@ margin-right: 120px;
    border: 10px;
    font-size: 30px;
 }
+
+.valid {
+border: 10px solid green; 
+}
+ 
+.isvalid {
+   border: 10px solid red; 
+   }
