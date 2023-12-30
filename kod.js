@@ -195,22 +195,32 @@
 
 // ==============================
 
-const clickBtn = document.querySelector(`.js-btn`);
-clickBtn.addEventListener(`click`, onBtnClick);
+// const clickBtn = document.querySelector(`.js-btn`);
+// clickBtn.addEventListener(`click`, onBtnClick);
 
-let boxecTop = 50;
-let boxecLeft = 50;
+// let boxecTop = 50;
+// let boxecLeft = 50;
 
-function onBtnClick(){
-    boxecTop += 10;
-    boxecLeft += 10
-    boxec.style.top = `${boxecTop}px`;
-    boxec.style.left = `${boxecLeft}px`
-}
-console.log(clickBtn);
+// function onBtnClick(){
+//     boxecTop += 10;
+//     boxecLeft += 10
+//     boxec.style.top = `${boxecTop}px`;
+//     boxec.style.left = `${boxecLeft}px`
+// }
 
-const boxec = document.querySelector(`.boxec`);
-console.log(boxec)
+// =====================================
+
+// const boxec = document.querySelector(`.boxec`);
+// console.log(boxec)
+
+// boxec.addEventListener(`click`, clikBoxec);
+
+// function clikBoxec (){
+//     boxecTop -= 10;
+//     boxecLeft -= 10
+//     boxec.style.top = `${boxecTop}px`;
+//     boxec.style.left = `${boxecLeft}px`
+// }
 
 
 
