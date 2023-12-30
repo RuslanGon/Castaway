@@ -324,9 +324,24 @@
 
 // =============================================
 
-document.addEventListener(`keyup`, (e) => {
-    console.log(`keyup`, e.code)
-});
+// document.addEventListener(`keyup`, (e) => {
+//     console.log(`keyup`, e.code)
+// });
 
+// =======================================
 
+// const box = document.querySelector(`.boxec`);
 
+// box.addEventListener(`mouseenter`, ( )=> {
+//     box.classList.add(``)
+// })
+
+// =============================================
+
+const box = document.querySelector(`.boxec`);
+
+box.addEventListener(`mouseleave`, ( )=> {
+    box.classList.remove(``)
+})
+
+// ============================================
