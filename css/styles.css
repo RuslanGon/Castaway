@@ -491,3 +491,16 @@ margin-right: 120px;
    flex-wrap: wrap;
    gap: 30px;
 }
+
+.java {
+   width: 1440px;
+   height: 438px;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-top: 200px;
+}
+
+.js-btn {
+   margin-bottom: 20px;
+}
