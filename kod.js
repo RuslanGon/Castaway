@@ -338,10 +338,34 @@
 
 // =============================================
 
-const box = document.querySelector(`.boxec`);
+// const box = document.querySelector(`.boxec`);
 
-box.addEventListener(`mouseleave`, ( )=> {
-    box.classList.remove(``)
-})
+// box.addEventListener(`mouseleave`, ( )=> {
+//     box.classList.remove(``)
+// })
 
 // ============================================
+
+// const box = document.querySelector(`.boxec`);
+
+// box.addEventListener(`mouseover`, ( )=> {
+//     box.classList.add(``)
+// })
+
+// ==========================================
+
+// const box = document.querySelector(`.boxec`);
+
+// box.addEventListener(`mouseout`, ( )=> {
+//     box.classList.remove(``)
+// })
+
+// ==========================================
+
+// const box = document.querySelector(`.boxec`);
+
+// box.addEventListener(`mousemove`, (e)=> {
+//     console.log(e.x, e.y)
+// })
+
+// =========================================
